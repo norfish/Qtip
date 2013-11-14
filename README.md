@@ -1,5 +1,5 @@
-#Tooltip
-## qunar tooltip
+#QTip
+##tooltip   ------jquery plugin
 **jquery plugin**
 @name  **qtip**
 
@@ -47,3 +47,6 @@
    trigger: 'hover' 
 }
 ```
+
+## Todo
+- auto change the position let the tooltip always in the property position
