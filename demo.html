@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang = "CN">
+<head>
+	<meta charset = "utf-8"/>
+	<title>Tooltip | jsPie</title>
+
+	<link rel="stylesheet" href="./src/css/qtip.css">
+	<style type="text/css">
+		.bd{
+			position: relative;
+			top: 100px;
+			left: 100px;
+		}	
+	</style>
+
+</head>
+	<div class='bd'>
+		<a href="#" id="qtip" title="赵客缦胡缨，吴钩霜雪明。<br/>银鞍照白马，飒沓如流星。<br/>十步杀一人，千里不留行。<br/>事了拂衣去，深藏身与名。">Hover Tip</a>
+	</div>
+	
+<body>
+
+	<script type="text/javascript" src="./src/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="./src/js/jquery.qtip.js"></script>
+	<script type="text/javascript">
+		$('#qtip').qtip({
+			direction: 'r',
+			html: true,
+			fade: true,
+			on: true,
+			header: 'header',
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.qtip { font-size: 10px; position: absolute; padding: 5px; z-index: 100000;}
+
+  /* Rounded corners */
+  .qtip-content { border: 2px solid #CCC; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+  
+  .qtip-header { background-color: #EEE; color: #000; max-width: 200px; padding: 5px 8px 4px 8px; font: bold 12px/20px sans-serif; text-align: center; }
+  .qtip-inner { background-color: #FFF; color: #000; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+  
+  /* Uncomment for shadow */
+  /*.qtip-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .qtip-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #CCC; }
+  
+  /* Rules to colour arrows */
+  .qtip-arrow-b { border-bottom-color: #CCC; }
+  .qtip-arrow-t { border-top-color: #CCC; }
+  .qtip-arrow-l { border-left-color: #CCC; }
+  .qtip-arrow-r { border-right-color: #CCC; }
+  
+	.qtip-b .qtip-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .qtip-br .qtip-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .qtip-bl .qtip-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .qtip-t .qtip-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .qtip-tr .qtip-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .qtip-tl .qtip-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .qtip-l .qtip-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .qtip-r .qtip-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
